@@ -13,6 +13,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   scroll-behavior: smooth;
 }
 
 body {
@@ -70,6 +71,48 @@ main {
    flex-direction: column;
    text-align: center;
    font-family: var(--rowdiesFont);
+}
+
+@media screen and (max-width: 360px) {
+   .apresentation span:nth-child(1) {
+      font-size: 25px;
+      font-weight: lighter;
+      display: block;
+      color: white;
+   }
+
+   .apresentation span:nth-child(2) {
+      font-size: 60px;
+      display: block;
+      color: var(--yellow);
+   }
+
+   .apresentation span:nth-child(3) {display: block;
+      font-size: 28px;
+      font-weight: lighter;
+      color: white;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .apresentation span:nth-child(1) {
+      font-size: 20px;
+      font-weight: lighter;
+      display: block;
+      color: white;
+   }
+
+   .apresentation span:nth-child(2) {
+      font-size: 20px;
+      display: block;
+      color: var(--yellow);
+   }
+
+   .apresentation span:nth-child(3) {display: block;
+      font-size: 28px;
+      font-weight: lighter;
+      color: white;
+   }
 }
 
 @media screen and (max-width: 600px) {
@@ -230,6 +273,8 @@ main {
       } 
    }
 }
+
+
 
 .myPhoto {
    width: 350px;
