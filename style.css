@@ -252,10 +252,12 @@ main {
          width: 320px;
       } 
    }
-}
-.myPhoto {
-   width: 350px;
-   height: 350px;
+   .myPhoto {
+      max-width: 350px;
+      width: 100%;
+      max-height: 350px;
+      width: 100%;
+   }   
 }
 
 .about-section-header > img{
