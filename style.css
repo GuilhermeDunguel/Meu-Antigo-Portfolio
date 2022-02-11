@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap');
 
 :root {
-   --darkerPurple: #120524;
-   --lightPurple: #774fb0;
-   --yellow: #f7d04c;
+   --darkerPurple: #101010;
+   --lightPurple: #ffdb5a;
+   --yellow: #ffc700;
    --white: #ffffff;
    --latoFont: 'Lato', sans-serif;
    --rowdiesFont: 'Rowdies', 'Lato', sans-serif;
