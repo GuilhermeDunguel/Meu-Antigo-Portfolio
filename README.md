@@ -7,7 +7,7 @@
 
 <hr>
 
-<h2 align='center'>Você pode acessar o projeto <a href='https://guilhermedunguel.com/'>clicando aqui</a></h2>
+<h2 align='center'>Você pode acessar o projeto <a href='https://meu-antigo-portfolio.vercel.app'>clicando aqui</a></h2>
 
 <br>
 
